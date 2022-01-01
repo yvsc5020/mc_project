@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0; text-decoration: none;}
+
+#topMenu {           
+    height: 60px; 
+    width: 100%; 
+    background-color: rgb(64, 78, 237); 
+    z-index: 0;
+    
+}
+/* #logo{
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    float: left;
+    margin-right: 25%;
+} */
+#topMenu ul{
+    margin-left: 50%;
+    
+    display: block;
+    text-align: center;
+}
+#topMenu ul li {                       
+    list-style: none;          
+    color: white;              
+    background-color: rgb(64, 78, 237); 
+    float: left;                
+    line-height: 60px;          
+    vertical-align: middle;     
+    text-align: center;      
+    margin-right: 10%; 
+    
+}
+#topMenu .menuLink {                               
+    text-decoration:none;                      
+    color: white;                              
+    display: block;                            
+    width: 150px;                              
+    font-size: 15px;                          
+    font-weight: bold;                        
+    
+}
+#topMenu .menuLink:hover {            
+    color: rgb(64, 78, 237);                 
+    background-color: white;    
+}
