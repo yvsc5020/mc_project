@@ -1,7 +1,26 @@
 *{margin: 0; padding: 0; list-style: none; text-decoration: none;}
 
-.top{width: 100%; height: 80px; background: #000; display: flex;}
-.logo>img{width: 50px; height: 50px;}
-.gnb{background: #ccc;}
-.gnb>ul{display: flex;  margin: 0 50px; line-height: 80px;}
-.gnb>ul>li{width: 100px; height: 80px;}
+.top{width: 100%; height: 80px; background: white; display: flex; justify-content: space-between;}
+.logo{position: relative; left: 13%; top: 10%;}
+.logo>img{width: 65px; height: 65px;}
+.gnb>ul{display: flex;  margin: 0px 50px; line-height: 65px; top: 10%; position: relative;}
+.gnb>ul>li{width: 150px; height: 65px; /*background: skyblue;*/ text-align: center; margin-left: 100px;}
+.gnb>ul>li>a{color: black;}
+
+.trans{width: 200px; height: 65px; background: skyblue; line-height: 65px; border-radius: 50px 50px 50px 50px; 
+    text-align: center; position: relative; margin: auto 0px; right: 5%; border: 2px solid black;}
+.trans>a{color: black;}
+
+.main{background: skyblue; height: 350px; width: 100%; border-top: 4px solid black; border-bottom: 4px solid #000; display: flex;}
+.cur{height: 360px; position: relative; top: -4px; width: 600px; z-index: 11;}
+.cur2{position: absolute; left: 0; width: 600px; height: 350px;}
+.bot{width: 600px; height: 150px; background: white; position: relative; top: 15%; text-align: center; opacity: 0.8;}
+.bot>p{line-height: 150px;}
+.menu{position: relative; width: 600px; height: 100px; display: flex; justify-content: space-between; line-height: 80px; top: 18%;}
+.left{width: 280px; height: 80px; background: white; border-radius: 50px 50px 50px 50px;}
+.right{width: 280px; height: 80px; background: black; border-radius: 50px 50px 50px 50px;}
+.mi{font-size: 25px;}
+.fam{width: 400px; height: 400px; position: relative; top: -5%;}
+
+.down{display: flex; justify-content: space-around;}
+.box{width: 330px; height: 270px; background: gray; margin: 20px 20px; border: 2px dotted black;}
