@@ -1,26 +1,38 @@
-*{margin: 0; padding: 0; list-style: none; text-decoration: none;}
+*{margin: 0; padding: 0; list-style: none; text-decoration: none; font-family: var(--font-headline)}
 
-.top{width: 100%; height: 80px; background: white; display: flex; justify-content: space-between;}
-.logo{position: relative; left: 13%; top: 10%;}
-.logo>img{width: 65px; height: 65px;}
-.gnb>ul{display: flex;  margin: 0px 50px; line-height: 65px; top: 10%; position: relative;}
-.gnb>ul>li{width: 150px; height: 65px; /*background: skyblue;*/ text-align: center; margin-left: 100px;}
-.gnb>ul>li>a{color: black;}
+.top{width: 100%; height: 60px; background: white; display: flex; justify-content: space-between;}
+.logo{position: relative; left: 17%; top: 10%;}
+.logo>a>img{width: 45px; height: 45px;}
+.gnb>ul{display: flex;  margin: 0px 50px; line-height: 50px; top: 10%; position: relative;}
+.gnb>ul>li{width: 150px; height: 50px; /*background: skyblue;*/ text-align: center; margin-left: 100px;}
+.gnb>ul>li:hover>a{text-decoration: underline;}
+.gnb>ul>li>a{color: black; font-size: 20px; font-weight: bold;}
 
-.trans{width: 200px; height: 65px; background: skyblue; line-height: 65px; border-radius: 50px 50px 50px 50px; 
-    text-align: center; position: relative; margin: auto 0px; right: 5%; border: 2px solid black;}
-.trans>a{color: black;}
+.trans{width: 200px; height: 45px; background: white; line-height: 45px; text-align: center; position: relative; margin: auto 0px; right: 16%;}
+.trans>a{color: black; font-size: 20px;}
+.tr{font-weight: bold;}
+.tr:hover{text-decoration: underline;}
 
-.main{background: skyblue; height: 350px; width: 100%; border-top: 4px solid black; border-bottom: 4px solid #000; display: flex;}
-.cur{height: 360px; position: relative; top: -4px; width: 600px; z-index: 11;}
-.cur2{position: absolute; left: 0; width: 600px; height: 350px;}
-.bot{width: 600px; height: 150px; background: white; position: relative; top: 15%; text-align: center; opacity: 0.8;}
-.bot>p{line-height: 150px;}
-.menu{position: relative; width: 600px; height: 100px; display: flex; justify-content: space-between; line-height: 80px; top: 18%;}
-.left{width: 280px; height: 80px; background: white; border-radius: 50px 50px 50px 50px;}
-.right{width: 280px; height: 80px; background: black; border-radius: 50px 50px 50px 50px;}
-.mi{font-size: 25px;}
-.fam{width: 400px; height: 400px; position: relative; top: -5%;}
+.main{background: rgb(64,78,237); height: 350px; width: 100%; border-top: 4px solid black; border-bottom: 4px solid #000; display: flex;}
+.cur{height: 360px; position: relative; top: -5px; width: 500px; z-index: 11;}
+.cur2{position: absolute; left: 0; width: 500px; height: 350px;}
+.bot{width: 600px; height: 170px; position: relative; top: 10%; text-align: center;}
+.bot>h1{position: relative; top: 10%; color: white;}
+.bot>p{line-height: 40px; font-size: 18px; color: white;}
+.menu{position: relative; width: 600px; height: 100px; display: flex; justify-content: space-between; line-height: 70px; top: 30%;}
+.left{width: 280px; height: 70px; background: white; border-radius: 50px 50px 50px 50px;}
+.right{width: 280px; height: 70px; background: black; border-radius: 50px 50px 50px 50px;}
+.left:hover>a{color: black;}
+.right:hover>a{color: white;}
+.mi{font-size: 25px; color: black; transition: 0.3s;}
+.mi2{font-size: 25px; color: white; transition: 0.3s;}
+.fam{width: 400px; height: 400px; position: relative; top: -5%; left: 20%;}
 
-.down{display: flex; justify-content: space-around;}
-.box{width: 330px; height: 270px; background: gray; margin: 20px 20px; border: 2px dotted black;}
+.down{display: flex; justify-content: space-around; position: relative; top: 50px;}
+.box{width: 330px; height: 270px; line-height: 40px;}
+.box>h3{color: rgb(64,78,237);}
+.box:first-child{position: relative; left: 120px;}
+.box:last-child{position: relative; right: 120px;}
+
+footer>div{ background-color: rgb(35, 39, 42); height: 70px; width: 100%; margin-top: 125px; position:absolute; bottom: 0%;}
+footer>div>p{ color: #fff; text-align: center; line-height: 70px; opacity: 70%;}
