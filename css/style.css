@@ -16,21 +16,23 @@
 .main{background: rgb(64,78,237); height: 350px; width: 100%; border-top: 4px solid black; border-bottom: 4px solid #000; display: flex;}
 .cur{height: 360px; position: relative; top: -5px; width: 500px; z-index: 11;}
 .cur2{position: absolute; left: 0; width: 500px; height: 350px;}
-.bot{width: 600px; height: 170px; position: relative; top: 10%; text-align: center;}
+.bot{width: 600px; height: 170px; position: absolute; top: 10%; text-align: center; left: 50%; transform: translateX(-50%);}
 .bot>h1{position: relative; top: 10%; color: white;}
 .bot>p{line-height: 40px; font-size: 18px; color: white;}
+.mon{position: absolute; right: 120px;}
 .menu{position: relative; width: 600px; height: 100px; display: flex; justify-content: space-between; line-height: 70px; top: 30%;}
-.left{width: 280px; height: 70px; background: white; border-radius: 50px 50px 50px 50px;}
-.right{width: 280px; height: 70px; background: black; border-radius: 50px 50px 50px 50px;}
-.left:hover>a{color: black;}
-.right:hover>a{color: white;}
+.left{width: 280px; height: 70px; background: white; border-radius: 50px 50px 50px 50px; transition: .5s;}
+.right{width: 280px; height: 70px; background: black; border-radius: 50px 50px 50px 50px; transition: .3s;}
+.left:hover{background-color: rgb(190, 190, 190);}
+.right:hover{background-color: rgb(65, 65, 65);}
 .mi{font-size: 25px; color: black; transition: 0.3s;}
 .mi2{font-size: 25px; color: white; transition: 0.3s;}
-.fam{width: 400px; height: 400px; position: relative; top: -5%; left: 20%;}
+.fam{width: 400px; height: 400px; position: relative; top: -17px;}
 
-.down{display: flex; justify-content: space-around; position: relative; top: 50px;}
+.down{display: flex; justify-content: space-around; position: relative; top: 100px;}
 .box{width: 330px; height: 270px; line-height: 40px;}
-.box>h3{color: rgb(64,78,237);}
+.box>h3{color: rgb(64,78,237); font-size: 30px;}
+.box>p{font-size: 20px;}
 .box:first-child{position: relative; left: 120px;}
 .box:last-child{position: relative; right: 120px;}
 
