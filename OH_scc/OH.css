@@ -2,19 +2,20 @@
 
 .top{
     width: 100%;
-    height: 70px;
-    background: rgb(44, 44, 44); 
+    height: 60px;
+    background: rgb(35, 39, 42); 
     display: flex; 
     justify-content: space-between;
 }
 .logo{
     position: relative; 
-    left: 13%; 
+    left: 17%; 
     top: 10%;
 }
 .logo>img{
     width: 60px; 
     height: 60px;
+    
 }
 .gnb>ul{
     display: flex;  
@@ -26,7 +27,7 @@
 .gnb>ul>li{
     width: 150px; 
     height: 60px; 
-    background: rgb(44, 44, 44);
+    background: rgb(35, 39, 42);
     text-align: center;
     margin-left: 100px;
     
@@ -39,43 +40,45 @@
 .trans{
     width: 200px; 
     height: 60px; 
-    background: rgb(255, 255, 255); 
-    line-height: 60px; 
-    border-radius: 50px 50px 50px 50px; 
+    
+    line-height: 75px; 
+    
     text-align: center; 
     position: relative; 
     margin: auto 0px; 
-    right: 5%; 
-    border: 2px solid black;
+    right: 16%; 
+    
 }
-.trans>a{color: black;}
+.trans>a{color: rgb(255, 255, 255);font-weight: bold;}
 
 .Back{
     width: 100%;
     height: 545px;
-    background: rgb(44, 44, 44); 
+    background: rgb(35, 39, 42); 
 }
 
 .GoodBot{
     color: #fff;
     position: relative;
     top: 20%;
-    left: 5%;
+    left: 17%;
     font-size: 45px;
+    width: 600px;
 }
 .GoodBot2{
     color: rgb(170, 170, 170);
     position: relative;
     top: 22%;
-    left: 5%;
+    left: 17%;
     font-size: 25px;
+    width: 700px;
 }
 .coding_img{
     position: relative;
-    left: 65%;
-    bottom: 22%;
-    width:  626px;
-    height: 370;
+    left: 55%;
+    bottom: 18%;
+    width:  525px;
+    height: 360;
 }
 .butten{
     background-color: rgb(64, 78, 237);
@@ -85,7 +88,7 @@
     position: absolute;
     border-radius: 50px 50px 50px 50px;
     top: 47%;
-    left: 5%;
+    left: 17%;
     transition: 0.2s;
 }
 .butten:hover{
