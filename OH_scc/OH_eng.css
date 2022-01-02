@@ -69,7 +69,7 @@
     left: 17%;
     font-size: 45px;
     width: 600px;
-    
+    margin: 0;
 }
 .GoodBot2{
     color: rgb(170, 170, 170);
@@ -78,11 +78,12 @@
     left: 17%;
     font-size: 25px;
     width: 700px;
+    margin: 0;
 }
 .coding_img{
     position: relative;
     left: 50%;
-    bottom: 21%;
+    bottom: 32%;
     width:  626px;
     height: 370;
 }
@@ -238,7 +239,7 @@
 
 .SONG{
     position: relative;
-    top: 13px;
+    
     width: 185px;
     border-radius: 10px 10px 10px 10px ;
 }
