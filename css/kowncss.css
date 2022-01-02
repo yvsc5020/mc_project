@@ -41,7 +41,7 @@ body{
     
 }
 .gnb>ul>li>a{
-    color: rgb(64, 78, 237);
+    color: black;
     font-weight: bold;
     font-size: 20px;
 }
@@ -60,10 +60,10 @@ body{
     margin: auto 0px;
     right: 16%;
 }
-.trans>a{color: rgb(64, 78, 237);font-weight: bold;}
+.trans>a{color: black;font-weight: bold;}
 .trans>a:hover{text-decoration: underline;}
 .trans>span{
-    color: rgb(64, 78, 237);
+    color: black;
 }
 
 .Back{
@@ -80,7 +80,7 @@ body{
     top: 27%;
     left: 17%;
     font-size: 50px;
-    width: 600px;
+    width: 800px;
 }
 .GoodBot2{
     color: white ;
